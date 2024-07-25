@@ -1,0 +1,38 @@
+.set {
+  background-image: linear-gradient(red, white, green);
+}
+.change {
+  text-align: left;
+}
+.profile-photo {
+  float: right; /* फोटो को राइट साइड में अलाइन करता है */
+  margin-left: 800px; /* टेक्स्ट और फोटो के बीच स्पेस के लिए */
+  position: relative;
+  right: 70px;
+  bottom: 35px;
+
+  height: 200px;
+  width: 200px;
+}
+
+.good,
+tr,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+#bad {
+  background-color: green;
+  color: azure;
+  text-align: center;
+}
+#book {
+  font-weight: bold;
+}
+
+#chup {
+  background-color: red;
+  background-image: linear-gradient(top, rgb(255, 200, 100));
+
+  width: 21%;
+}
